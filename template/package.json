@@ -12,6 +12,45 @@
   },
   "eslintConfig": {
     "extends": "preact",
+    "rules": {
+      "no-unused-vars": "warn",
+      "react/sort-comp": "off",
+      "lines-around-comment": "off",
+      "react/prefer-stateless-function": "off",
+      "react/jsx-indent-props": [
+        "error",
+        2
+      ],
+      "indent": [
+        "error",
+        2,
+        {
+          "SwitchCase": 1
+        }
+      ],
+      "brace-style": [
+        "warn",
+        "1tbs"
+      ],
+      "arrow-body-style": [
+        "warn",
+        "as-needed"
+      ],
+      "comma-dangle": [
+        "warn",
+        "never"
+      ],
+      "arrow-parens": [
+        "warn",
+        "as-needed"
+      ],
+      "prefer-template": "off",
+      "semi": [
+        "error",
+        "always"
+      ],
+      "no-tabs": "error"
+    },
     "ignorePatterns": [
       "build/"
     ]
